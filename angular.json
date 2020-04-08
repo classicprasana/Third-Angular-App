@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "Third-Angular-App": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Third-Angular-App"
+    }
+  },
+  "defaultProject": "Third-Angular-App",
+  "cli": {
+    "analytics": false
+  }
 }
